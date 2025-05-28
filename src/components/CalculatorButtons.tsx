@@ -133,7 +133,7 @@ const CalculatorButtons = ({
       </Button>
 
       {/* Row 6 */}
-      <Button className={numberButtonClass} onClick={() => onNumber('0')} colSpan={2}>
+      <Button className={`${numberButtonClass} col-span-2`} onClick={() => onNumber('0')}>
         0
       </Button>
       <Button className={numberButtonClass} onClick={onDot}>
